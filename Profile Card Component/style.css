@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-kumbh-sans: 'Kumbh Sans', sans-serif;
+    --clr-primary-dark-cyan: hsl(185, 75%, 39%);
+    --clr-primary-dark-blue: hsl(229, 23%, 23%);
+    --clr-primary-grayish-blue: hsl(227, 10%, 46%);
+    --clr-neutral-dark-gray: hsl(0, 0%, 59%);
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: var(--clr-primary-dark-cyan);
+    overflow: hidden;
+}
+
+.bg-bubble {
+    position: absolute;
+    translate: -50% -50%;
+}
+
+#top-bubble {
+    top: 0;
+    left: 15%;
+}
+
+#bottom-bubble {
+    top: 120%;
+    left: 80%;
+}
+
+@media (width < 500px) {
+    #bottom-bubble {
+        top: 90%;
+        left: 100%
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    position: relative;
+    font-family: var(--font-kumbh-sans);
+    border-radius: 1rem;
+    overflow: hidden;
+    max-height: 90%;
+    max-width: 90%;
+    /* width: 24em; */
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 2em;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    translate: -50%;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.profile-info {
+    margin-top: 3rem;
+    color: var(--clr-primary-dark-blue);
+    font-size: 1.1rem;
+}
+
+span {
+    margin-left: 0.2rem;
+}
+
+.light-text {
+    font-weight: 400;
+    color: var(--clr-primary-grayish-blue)
+}
+
+.profile-location {
+    font-size: 0.8rem;
+    margin-top: 0.6em;
+}
+
+.profile-details {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5em 2.5em;
+    border-top: rgba(0,0,0,0.2) 1px solid;
+}
+
+.detail {
+    text-align: center;
+}
+
+.detail-count {
+    font-weight: 700;
+    color: var(--clr-primary-dark-blue);
+    font-size: 1.1rem;
+}
+
+.detail-desc {
+    color: var(--clr-neutral-dark-gray);
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    margin-top: 4px;
+}
+

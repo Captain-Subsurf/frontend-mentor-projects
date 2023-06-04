@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-outfit: 'Outfit', sans-serif;
+
+    --clr-primary-soft-blue: hsl(215, 51%, 70%);
+    --clr-primary-cyan: hsl(178, 100%, 50%);
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    font-family: var(--font-outfit);
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-height: 70%;
+    max-width: 18em;
+    padding: 1.3em;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 14px;
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container>*+* {
+    margin-top: 1rem;
+}
+
+.image-container {
+    position: relative;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+hr {
+    border-color: var(--clr-primary-soft-blue);
+    opacity: 0.2;
+}
+
+.icon-container {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+}
+
+.icon-container:hover {
+    opacity: 100%;
+}
+
+.view-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 2.4rem;
+}
+
+.nft-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.nft-description {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.nft-purchase-info, .nft-purchase-info>*, .nft-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creator-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2em;
+}
+
+.creator-image {
+    width: 1.6em;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.creator-name {
+    font-size: 0.8rem;
+    margin-left: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.nft-title:hover, .creator-name:hover {
+    color: var(--clr-primary-cyan);
+}
+
+.blue-text {
+    color: var(--clr-primary-soft-blue);
+}
+
+.nft-info {
+    align-items: center;
+}
+
+.price {
+    color: var(--clr-primary-cyan)
+}
+
+.info {
+    font-size: 0.8rem;
+}
+
+.icon {
+    margin-right: 0.4rem;
+    height: 14px;
+}
+
+
+@media (width < 500px) {
+    .container {
+        max-width: 80%;
+        height: fit-content;
+        max-height: 100%;
+    }
+}
