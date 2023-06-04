@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View Solution](https://your-solution-url.com)
-- Live Site URL: [View Result](https://your-live-site-url.com)
+- Solution URL: [View Solution](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/Product%20Preview%20Card%20Component)
+- Live Site URL: [View Result](https://product-preview-card-subsurf.netlify.app/)
 
 ## My process
 

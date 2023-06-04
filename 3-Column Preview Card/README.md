@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link to solution](https://your-solution-url.com)
-- Live Site URL: [Link to live site](https://your-live-site-url.com)
+- Solution URL: [Link to solution](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/3-Column%20Preview%20Card)
+- Live Site URL: [Link to live site](https://3-column-card-subsurf.netlify.app/)
 
 ## My process
 

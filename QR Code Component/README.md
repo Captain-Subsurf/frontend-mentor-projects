@@ -18,7 +18,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![Final Result](./images/screenshot.jpg)
 
 ### Links
-- Live Site URL: [Link to the project](https://google.com)
+- Solution URL: [Link to the solution](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/QR%20Code%20Component)
+- Live Site URL: [Link to the project](https://qr-code-card-subsurf.netlify.app/)
 
 ## My process
 

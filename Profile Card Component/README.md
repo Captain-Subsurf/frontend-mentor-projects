@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link to solution](https://github.com/Captain-Subsurf/Frontend-Mentor---Profile-Card-Component/)
-- Live Site URL: [Link to live site](https://captain-subsurf.github.io/Frontend-Mentor---Profile-Card-Component/)
+- Solution URL: [Link to solution](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/Profile%20Card%20Component)
+- Live Site URL: [Link to live site](https://profile-card-subsurf.netlify.app/)
 
 ## My process
 

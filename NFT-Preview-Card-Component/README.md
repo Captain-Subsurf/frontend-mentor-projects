@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link to solution](https://github.com/Captain-Subsurf/Frontend-Mentor---NFT-Preview-Card-Component/)
-- Live Site URL: [Link to live site](https://captain-subsurf.github.io/Frontend-Mentor---NFT-Preview-Card-Component/)
+- Solution URL: [Link to solution](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/NFT-Preview-Card-Component)
+- Live Site URL: [Link to live site](https://nft-card-subsurf.netlify.app/)
 
 ## My process
 

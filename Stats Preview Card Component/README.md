@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View Code](https://github.com/Captain-Subsurf/Frontend-Mentor---Stats-Preview-Card-Component/)
-- Live Site URL: [View Result](https://captain-subsurf.github.io/Frontend-Mentor---Stats-Preview-Card-Component/)
+- Solution URL: [View Code](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/Stats%20Preview%20Card%20Component)
+- Live Site URL: [View Result](https://stat-preview-card-subsurf.netlify.app/)
 
 ## My process
 
