@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+:root {
+    --font-family-default: 'League Spartan', sans-serif;
+
+    --clr-primary-400: hsl(300, 43%, 22%);
+    --clr-secondary: hsl(333, 80%, 67%);
+
+    --clr-neutral-magenta-500: hsl(303, 10%, 53%);
+    --clr-neutral-magenta-100: hsl(300, 24%, 96%);
+
+    --fw-regular: 400;
+    --fw-bold: 500;
+    --fw-black: 700;
+
+    --fs-regular: 1.2rem;
+    --fs-small: 1rem;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    font-family: var(--font-family-default);
+    
+}
+
+.bg-img-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.social-proof-section {
+    max-width: 85%;
+    margin-block: 6rem;
+    display: grid;
+    gap: 2.4rem;
+}
+
+
+.section-hero {
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+}
+
+
+.section-title {
+    color: var(--clr-primary-400);
+    font-size: 2.6rem;
+    font-weight: var(--fw-black);
+    line-height: .8;
+}
+
+
+.section-desc {
+    line-height: 1.5;
+    color: var(--clr-neutral-magenta-500);
+    font-size: var(--fs-regular);
+    font-weight: var(--fw-bold);
+
+}
+
+.ratings {
+    display: grid;
+    gap: 1rem;
+}
+
+.rating {
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--clr-neutral-magenta-100);
+    border-radius: 10px;
+}
+
+.rated-by {
+    margin-top: 0.8em;
+    color: var(--clr-primary-400);
+    font-size: var(--fs-regular);
+    font-weight: var(--fw-black);
+}
+
+.reviews {
+    display: grid;
+    gap: 1rem;
+    height: 100%;
+}
+
+.review {
+    display: grid;
+    gap: 2rem;
+    background-color: var(--clr-primary-400);
+    color: white;
+    padding: 2.4rem;
+    border-radius: 10px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer-img {
+    border-radius: 50%;
+    width: 2.8rem;
+}
+
+.reviewed-by {
+    line-height: 1.2;
+    margin-left: 1rem;
+    font-size: var(--fs-regular);
+    font-weight: var(--fw-bold);
+    color: var(--clr-secondary);
+}
+
+.reviewer-name {
+    display: block;
+    color: white;
+}
+
+.review-desc {
+    font-size: var(--fs-regular);
+    line-height: 1.4;
+}
+
+@media (width > 70rem) {
+    :root {
+        --fs-regular: 1rem;
+    }
+
+    .social-proof-section {
+        max-width: 80%;
+        height: 70%;
+        margin-block: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 3rem;
+    }
+
+    .section-hero {
+        text-align: start;
+        width: 90%;
+    }
+
+    .section-title {
+        font-size: 3.2rem;
+    }
+
+    .section-desc {
+        font-size: 1.1rem;
+    }
+
+    .ratings {
+        align-self: center;
+    }
+
+    .rating {
+        display: flex;
+        align-items: center;
+        padding: 0.8rem 1.4rem;
+        width: 85%;
+    }
+
+    .rating:first-child {
+        place-self: start;
+    }
+    .rating:nth-child(2) {
+        place-self: center;
+    }
+    .rating:nth-child(3) {
+        place-self: end;
+    }
+
+    .stars-rating {
+        margin-right: 1.6rem;
+    }
+
+    .rated-by {
+        margin-top: 0;
+        font-size: 0.9rem;
+    }
+
+    .reviews {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column: span 2;
+        height: 100%;
+
+    }
+
+    .review {
+        /* max-height: 100%; */
+        gap: 1rem;
+        padding-block: auto;
+        padding-inline: 1.6rem;
+        /* font-size: 0.6rem; */
+    }
+
+    .review:first-child {
+        place-self: start;
+    }
+    .review:nth-child(2) {
+        place-self: center;
+        padding-block: auto;
+    }
+    .review:nth-child(3) {
+        place-self: end;
+    }
+
+    .reviewer-img {
+        width: 2rem;
+    }
+
+    .reviewer-name, 
+    .review-desc {
+        font-size: 0.8rem;
+    }
+
+    .bg-img-top {
+        top: 0;
+        left: 0;
+    }
+    
+}
+
+@media (width > 90rem) {
+    .social-proof-section {
+        max-width: 70%;
+    }
+
+    .section-title {
+        font-size: clamp(3.2rem, 10px, 4.5rem);
+    }
+
+    .section-desc {
+        font-size: 1.2rem;
+    }
+}
+
+@media (width > 1000px) {
+    .section-title {
+        padding-right: 2rem;
+    }
+}
