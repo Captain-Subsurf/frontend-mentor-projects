@@ -104,7 +104,8 @@ body {
 
 }
 
-.rating-option:hover {
+.rating-option:hover, 
+.rating-option:focus {
     color: white;
     background-color: var(--clr-neutral-grey-300);
 }
