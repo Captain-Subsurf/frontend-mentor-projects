@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link to solution](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/Article%20Previewy%20Component)
-- Live Site URL: [Link to live site](https://article-preview-component-subsurf.netlify.app/)
+- Solution URL: [Link to solution](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/FAQ%20Accordion%20Component)
+- Live Site URL: [Link to live site](https://faq-accordion-subsurf.netlify.app/)
 
 ## My process
 
