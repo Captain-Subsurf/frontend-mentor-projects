@@ -1,6 +1,6 @@
-# Frontend Mentor - FAQ accordion card solution
+# Frontend Mentor - Newsletter sign-up form with success message solution
 
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link to solution](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/FAQ%20Accordion%20Component)
-- Live Site URL: [Link to live site](https://faq-accordion-subsurf.netlify.app/)
+- Solution URL: [Link to solution](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/Newsletter%20Sign%20Up)
+- Live Site URL: [Link to live site](https://newsletter-sign-up.netlify.app/)
 
 ## My process
 

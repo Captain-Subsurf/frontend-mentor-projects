@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Newsletter Sign up</title>
+</head>
+<body>
+    <div class="container">
+        <picture class="img-container">
+            <source srcset="./images/illustration-sign-up-desktop.svg" media="(width > 50em)">
+            <img src="./images/illustration-sign-up-mobile.svg" alt="a newsletter illustration" class="illustration">
+        </picture>
+        <section class="sign-up-section">
+            <h1 class="section-title">Stay updated!</h1>
+            <p class="section-description">Join 60,000+ product managers receiving monthly updates on:</p>
+            <ul class="list-points">
+                <li class="list-point">
+                    <img src="./images/icon-list.svg" alt="list point icon" class="icon">
+                    <p class="point">Product discovery and building what matters</p>
+                </li>
+                <li class="list-point">
+                    <img src="./images/icon-list.svg" alt="list point icon" class="icon">
+                    <p class="point">Measuring to ensure updates are a success</p>
+                </li>
+                <li class="list-point">
+                    <img src="./images/icon-list.svg" alt="list point icon" class="icon">
+                    <p class="point">And much more!</p>
+                </li>
+            </ul>
+            <form class="sign-up-form">
+                <div class="input-container">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" class="email-input" placeholder="email@company.com">
+                    <p class="error-msg no-display">Valid email required</p>
+                </div>
+                <button type="submit" class="btn">Subscribe to monthly newsletter</button>
+            </form>
+        </section>
+    </div>
+
+    <div class="success-state no-display">
+        <img src="./images/icon-success.svg" alt="success-icon" class="success-icon">
+        <div class="section-details">
+            <h1 class="section-title">Thanks for subscribing!</h1>
+            <p>A confirmation email has been sent to <span id="user-email"></span>. Please open it and click the button inside to confirm your subscription.</p>
+        </div>
+        <button class="btn dismiss-btn">Dismiss message</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

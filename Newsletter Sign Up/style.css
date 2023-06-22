@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+:root {
+    --font-family-default: 'Roboto', sans-serif;
+
+    --hsl-primary: 4, 100%, 67%;
+
+    --clr-primary: hsl(var(--hsl-primary));
+    --clr-neutral-grey-400: hsl(231, 7%, 60%);
+    --clr-neutral-grey-500: hsl(235, 18%, 26%);
+    --clr-neutral-grey-600: hsl(234, 29%, 20%);
+    
+    --clr-gradient-start: hsl(356, 100%, 69%);
+    --clr-gradient-end: hsl(18, 98%, 61%);
+    --gradient-btn: linear-gradient(to right, var(--clr-gradient-start), var(--clr-gradient-end));
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    display: grid;
+    place-items: center;    
+    background-color: white;
+    font-family: var(--font-family-default);
+    font-weight: var(--fw-regular);
+}
+
+.no-display {
+    display: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    height: 100%;
+}
+
+.illustration {
+    width: 100%;
+}
+
+.sign-up-section {
+    padding: 2.6rem 2rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.section-title {
+    font-size: 2.4rem;
+    font-weight: var(--fw-bold);
+    color: var(--clr-neutral-grey-600);
+}
+
+.section-description {
+    color: var(--clr-neutral-grey-600);
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.list-points {
+    display: grid;
+    gap: 1rem;
+}
+
+.list-point {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    margin-right: 1rem;
+}
+
+.sign-up-form {
+    --padding: 1rem;
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container>label {
+    font-size: 0.8rem;
+    font-weight: var(--fw-bold);
+    color: var(--clr-neutral-grey-600);
+}
+
+.email-input {
+    display: block;
+    width: 100%;
+    padding: var(--padding);
+    margin-top: 6px;
+    border-radius: 5px;
+    outline-color: transparent;
+    border: 1px solid var(--clr-neutral-grey-400);
+    color: var(--clr-neutral-grey-600)
+}
+
+.email-input::placeholder {
+    color: var(--clr-neutral-grey-400);
+}
+
+.email-input:focus, .email-input:active {
+    outline: 1px solid black;
+}
+
+.email-input:focus:invalid {
+    background: hsla(var(--hsl-primary), 0.1);
+    border-color: var(--clr-primary);
+    outline-color: transparent;
+    color: var(--clr-primary);
+}
+
+.error-msg {
+    font-size: 0.8rem;
+    color: red;
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+
+.btn {
+    width: 100%;
+    padding: var(--padding);
+    background: var(--clr-neutral-grey-600);
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    outline-color: transparent;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-out;
+}
+
+.btn:hover {
+    background: var(--gradient-btn);
+}
+
+.success-state {
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.success-icon {
+    width: min(20%, 3rem);
+    align-self: end;
+}
+
+.section-details {
+    display: grid;
+    gap: 1rem;
+}
+
+.dismiss-btn {
+    align-self: end;
+    padding: 1rem;
+}
+
+#user-email {
+    color: var(--clr-neutral-grey-600);
+    font-weight: var(--fw-bold);
+}
+
+@media (width > 50em) {
+    body {
+        background-color: var(--clr-neutral-grey-600);
+        max-height: 100vh;
+    }
+
+    .container, .success-state {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1.2rem;
+        align-items: center;
+        background-color: white;
+        height: fit-content;
+        padding: 1.4rem;
+        border-radius: 2em;
+        max-width: 95%;
+    }
+
+    .illustration {
+        display: block;
+    }
+
+    .sign-up-section {
+        gap: 1.6rem;
+    }
+
+    .section-description {
+        width: 40ch;
+    }
+
+    .success-state {
+        flex-direction: column;
+        padding: 2.4rem 3rem;
+        width: 26rem;
+        gap: 2rem;
+    }
+
+    .success-icon {
+        align-self: start;
+        width: 15%;
+    }
+
+    .section-details>p {
+        font-size: 0.8rem;
+        line-height: 1.4;
+        width: 45ch;
+    }
+
+}
