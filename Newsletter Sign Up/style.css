@@ -182,7 +182,7 @@ ul {
 
 @media (width > 50em) {
     body {
-        background-color: var(--clr-neutral-grey-600);
+        background-color: var(--clr-neutral-grey-500);
         max-height: 100vh;
     }
 
