@@ -202,6 +202,10 @@ ul {
         display: block;
     }
 
+    .section-title {
+        font-size: 3.4rem;
+    }
+
     .sign-up-section {
         gap: 1.6rem;
     }
