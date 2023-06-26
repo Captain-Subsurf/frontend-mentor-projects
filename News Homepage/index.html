@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>News Homepage</title>
+</head>
+<body>
+    <nav>
+        <img src="./assets/images/logo.svg" alt="news page logo" class="logo">
+        <img src="./assets/images/icon-menu.svg" alt="burger icon" class="toggle-nav-btn">
+        <ul class="nav-links">
+            <img src="./assets/images/icon-menu-close.svg" alt="cross icon" class="toggle-nav-btn cross-nav">
+            <li class="nav-link">Home</li>
+            <li class="nav-link">New</li>
+            <li class="nav-link">Popular</li>
+            <li class="nav-link">Trending</li>
+            <li class="nav-link">Categories</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="section head-news-section">
+            <picture class="img.container">
+                <source srcset="./assets/images/image-web-3-desktop.jpg" media="(width > 40em)">
+                <img src="./assets/images/image-web-3-mobile.jpg" alt="web 3 image" class="head-news-img">
+            </picture>
+            <div class="subsection">
+                <h1 class="main-title">The Bright Future of Web 3.0?</h1>
+                <div class="head-details">
+                    <p class="description">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                    <button class="btn read-more-btn">Read more</button>
+                </div>
+            </div>
+        </section>
+        <section class="section new-section">
+            <h2 class="subtitle">New</h2>
+            <div class="news">
+                <div class="news-part">
+                    <h3 class="card-title">Hydrogen VS Electric Cars</h3>
+                    <p class="description">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                <hr>
+                <div class="news-part">
+                    <h3 class="card-title">The Downsides of AI Artistry</h3>
+                    <p class="description">What are the possible adverse effects of on-demand AI image generation?</p>
+                </div>
+                <hr>
+                <div class="news-part">
+                    <h3 class="card-title">Is VC Funding Drying Up?</h3>
+                    <p class="description">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section suggested-section">
+            <div class="suggested-card">
+                <img src="./assets/images/image-retro-pcs.jpg" alt="retro pc" class="card-img">
+                <div class="card-details">
+                    <h2 class="number-title">01</h3>
+                    <h3 class="card-heading">Reviving Retro PCs</h4>
+                    <p class="description">What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+            <div class="suggested-card">
+                <img src="./assets/images/image-top-laptops.jpg" alt="laptops" class="card-img">
+                <div class="card-details">
+                    <h2 class="number-title">02</h3>
+                    <h3 class="card-heading">Top 10 Laptops of 2022</h4>
+                    <p class="description">Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            <div class="suggested-card">
+                <img src="./assets/images/image-gaming-growth.jpg" alt="game controller" class="card-img">
+                <div class="card-details">
+                    <h2 class="number-title">03</h3>
+                    <h3 class="card-heading">The Growth of Gaming</h4>
+                    <p class="description">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="black-filter" class="no-display"></div>
+    <script src="app.js"></script>
+</body>
+</html>
