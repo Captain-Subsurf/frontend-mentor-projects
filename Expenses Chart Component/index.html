@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Charts</title>
+</head>
+<body>
+    <div class="component">
+        <section class="balance-section">
+            <p class="balance">My balance<span>$921.48</span></p>
+            <img src="./images/logo.svg" alt="logo" class="logo">
+        </section>
+
+        <section class="charts-section">
+            <h1 class="section-title">Spending - Last 7 days</h1>
+            <div class="expense-chart"></div>
+            <hr>
+            <div class="month-total-container">
+                <p class="total-expense">Total this month<span>$478.33</span></p>
+                <p class="stats"><span>+2.4%</span>from last month</p>
+            </div>
+        </section>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
