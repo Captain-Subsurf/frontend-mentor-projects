@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dropdown Nav</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <img src="./img/logo.svg" alt="logo img" class="logo">
+    <ul class="nav-links">
+      <img src="./img/icon-close-menu.svg" alt="close icon" class="toggle-nav-btn close-nav">
+      <li class="nav-link features">Features <img src="./img/icon-arrow-down.svg" alt="" class="arrow"></li>
+
+      <ul class="dropdown features-drop no-display">
+        <li class="nav-link"><img src="./img/icon-todo.svg" alt="todo icon" class="icon">
+          <p>Todo List</p>
+        </li>
+        <li class="nav-link"><img src="./img/icon-calendar.svg" alt="todo icon" class="icon">
+          <p>Calendar</p>
+        </li>
+        <li class="nav-link"><img src="./img/icon-reminders.svg" alt="todo icon" class="icon">
+          <p>Reminders</p>
+        </li>
+        <li class="nav-link"><img src="./img/icon-planning.svg" alt="todo icon" class="icon">
+          <p>Planning</p>
+        </li>
+      </ul>
+
+      <li class="nav-link company">Company <img src="./img/icon-arrow-down.svg" alt="" class="arrow"></li>
+
+      <ul class="dropdown company-drop no-display">
+        <li class="nav-link">History</li>
+        <li class="nav-link">Our Team</li>
+        <li class="nav-link">Blog</li>
+      </ul>
+
+      <li class="nav-link">Careers</li>
+      <li class="nav-link">About</li>
+      <li class="nav-link push-right">Login</li>
+      <li class="nav-link btn">Register</li>
+    </ul>
+    <img src="./img/icon-menu.svg" alt="burger icon" class="toggle-nav-btn">
+  </nav>
+
+  <main>
+    <div class="intro">
+      <div class="details">
+        <h1 class="section-title"><span>Make </span>remote work</h1>
+        <p class="section-description">Get your team in sync, no matter your location. Streamline processes, create team
+          rituals and watch productivity soar.</p>
+        <button class="btn">Learn more</button>
+      </div>
+      <div class="clients">
+        <img src="./img/client-databiz.svg" alt="" class="client-logo">
+        <img src="./img/client-audiophile.svg" alt="" class="client-logo">
+        <img src="./img/client-meet.svg" alt="" class="client-logo">
+        <img src="./img/client-maker.svg" alt="" class="client-logo">
+      </div>
+    </div>
+    <picture class="img-container">
+      <source srcset="./img/image-hero-mobile.png" media="(width < 70em)">
+      <img src="./img/image-hero-desktop.png" alt="" class="hero-img">
+    </picture>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
