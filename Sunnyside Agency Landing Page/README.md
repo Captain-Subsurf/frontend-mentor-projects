@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution](https://github.com/Captain-Subsurf/frontend-mentor-projects/tree/main/Sunnyside%20Agency%20Landing%20Page)
-- Live Site URL: [Link to live site](https://intro-dropdown-nav-subsurf.netlify.app/)
+- Live Site URL: [Link to live site](https://captain-subsurf.github.io/frontend-mentor-projects/Sunnyside%20Agency%20Landing%20Page/)
 
 ## My process
 
